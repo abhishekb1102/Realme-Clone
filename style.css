@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0.5px solid red;
+}
+
+.nav1{
+    height: 44px;
+    /* width: 100%; */
+    background: rgb(28, 27, 27);
+    position: relative;
+    z-index: 11;
+}
+
+.nav2{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 19px;
+}
+
+.extra {
+  margin-left: 197px;
+  display: flex;
+  gap: 24px;
+}
+.topappwraper {
+    /* width: 12rem; */
+    margin: 0px auto;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+
+.circle {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-image: url("https://static.realme.net/v3/common/images/toApp-overseas-25892ede38.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 16px;
+}
+
+button {
+  border-radius: 50px;
+  height: 20px;
+  padding: 5px;
+  margin-left: 316px;
+  margin-bottom: 7px;
+}
+
+.nav2 {
+  height: 60px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.nav2 h4 {
+  font-size: 25px;
+}
+
+input::placeholder{
+  color: #000;
+}
+
+
+
+.contener {
+  height: 650px;
+
+}
+
+#one{
+  background-image: url("https://image01.realme.net/general/20241120/17320689328335ab9f9bb776b48eb96477c7abfefb103.jpg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-content {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 140px;
+  pointer-events: auto;
+}
+.banner-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  margin-left: 700px;
+  margin-top: 140px;
+  pointer-events: auto;
+}
+
+.content-contener {
+  height: 500px;
+  width: 500px;
+  
+}
+
+.baner-subtitel {
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 16px;
+  vertical-align: top;
+  color: white;
+  margin-left: 50PX;
+}
+
+.baner-subone{
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 16px;
+  vertical-align: top;
+  color: black;
+  margin-left: 700PX;
+}
+
+.baner-point {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+  color: white;
+  margin-left: 50PX;
+}
+
+.baner-poinone{
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+  color: black;
+  margin-left: 700PX;
+}
+
+#tow{
+    background-image: url("https://image01.realme.net/general/20241211/1733897458225eb84bf73c8384d318d40ca7b610263ca.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#three{
+    background-image: url("https://image01.realme.net/general/20241120/17320690104192d2efbec0ad14b16b6e97985c8df1391.jpg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.abhi {
+  height: 1476px;
+  width: 100%;
+}
+
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    
+  }
+  
+   .grid-items {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+
+  .circleee {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+  }
+  .grid-items:first-child {
+    background-image: url("https://image01.realme.net/general/20241024/1729756200136e04b403248894af88d3c2a2492c83143.jpg.webp");
+  }
+  .grid-items:nth-child(2) {
+    background-image: url("https://image01.realme.net/general/20240819/17240368720958c318fce8c8e4e17be456962a0791398.jpg.webp");
+  }
+  .grid-items:nth-child(3) {
+    background-image: url("https://image01.realme.net/general/20240816/1723795210621a14e51eb036646a5a2dd4374118eed8e.png.webp");
+  }
+  .grid-items:nth-child(4) {
+    background-image: url("https://image01.realme.net/general/20241127/1732680382032689a185c1c654be68ef7ea739b4b729f.jpg.webp");
+  }
+  .grid-items:nth-child(5) {
+    background-image: url("https://image01.realme.net/general/20240816/17237952217290cfd29a8486c4a519e875f1729d3cd6d.png.webp");
+  }
+  .grid-items:nth-child(6) {
+    background-image: url("https://image01.realme.net/general/20241223/1734952570508f120cf46785d462298fe08134612ad03.jpg");
+  }
+ 
+  .lastcontenar {
+    height: 156px;
+    width: 1312px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .gride-container2 {
+    height: 136px;
+    width: 313px;
+    display: grid;
+    grid-template-columns: (4, 1fr);
+    border-radius: 16px;
+    padding: 19px 17px;
+        background: #f9f9f9;
+        padding: 19px 16px;
+  }
+
+  .title-text {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 16px;
+    font-weight: 500;
+    margin-top: 48px;
+  }
+
+  #title-text , #sub-title{
+    color: white;
+  }
+
+  .sub-title {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .abhi2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .service-tital {
+    font-size: 16px;
+        line-height: 16px;
+        color: #000;
+        margin-top: 8px;
+        font-weight: bold;
+  }
+
+  .service-disc {
+    font-size: 14px;
+        line-height: 18px;
+        height: 36px;
+        color: #666;
+        margin-top: 8px;
+  }
+
+
+
+
+  footer{
+    height: 437px;
+    width: 100%;
+    background-color: #222222;
+    background-image: url("./Screenshot\ 2025-01-10\ 154349.png");
+  }
+
+  
